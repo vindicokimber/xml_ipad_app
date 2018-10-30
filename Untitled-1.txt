@@ -1,0 +1,13 @@
+
+/*
+    {'portalid': '1111', 'name': 'showHomeIcon', 'booleanvalue': 'false', 'type':'boolean' },
+    {'portalid': '1111', 'name': 'motionResetPeriod', 'stringvalue': '1', 'type':'string' },
+    {'portalid': '1111', 'name': 'motionResetPeriod', 'integervalue': '2', 'type':'integer' },
+    {'portalid': '1111', 'name': 'motionResetPeriod', 'realvalue': '1.0', 'type':'real' },
+  ]
+*/
+
+json= [{"portalid":"1111","name":"showHomeIcon","type":"boolean","booleanvalue":false},
+{"portalid":"1111","name":"motionResetPeriod","type":"string","stringvalue":"1"},
+{"portalid":"1111","name":"motionResetPeriod","type":2,"integervalue":"2"},
+{"portalid":"1111","name":"motionResetPeriod","type":"real","realvalue":1}]

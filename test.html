@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test handle response</title>
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("POST","books");
+        var xmlDoc;
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            xmlDoc = xmlhttp.responseXML;
+            console.log(xmlDoc);
+            }
+        };
+        xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+        var xml = "<?xml version='1.0'?><query><author>John Steinbeck</author></query>";
+        xmlhttp.send(xml);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+        
